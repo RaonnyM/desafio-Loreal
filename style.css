@@ -9,6 +9,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 80px;
 }
 @media (max-width: 800px) {
   header {
@@ -27,4 +28,22 @@ ul {
     flex-direction: column;
     text-align: center;
   }
+}
+
+main .banner {
+  width: 100vw;
+  height: 30vh;
+}
+@media (max-width: 800px) {
+  main .banner {
+    display: none;
+  }
+}
+main .comercial {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .caixa1 {
+  width: 40vw;
 }/*# sourceMappingURL=style.css.map */
