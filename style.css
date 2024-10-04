@@ -43,7 +43,26 @@ main .comercial {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 30px;
+}
+@media (max-width: 800px) {
+  main .comercial {
+    flex-direction: column;
+  }
 }
 main .caixa1 {
   width: 40vw;
+  line-height: 25px;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  main .caixa1 {
+    width: 55vw;
+    margin-top: 30px;
+  }
+}
+
+.caixa2 {
+  display: flex;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */
