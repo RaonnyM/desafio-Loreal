@@ -3,7 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #EFEEF3;
+    font-family: "Kodchasan", sans-serif;
+}
 header{
     background-color: #EFEEF3;
     display: flex;
@@ -53,10 +56,22 @@ main{
         width: 55vw;
         margin-top: 30px;
     }
+    h2{
+        margin-bottom: 20px;
+    }
    }
 }
 
 .caixa2{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 35px;
+    align-items: center;
+}
+
+.produtos{
+    img{
+        width: 5vw;
+        margin: 20px;
+    }    
 }
